@@ -98,13 +98,6 @@ title_list = excel_df.show_title.tolist()
 
 print(title_list)
 
-#전송 정보
-smtp_info = dict({"smtp_server" : "smtp.naver.com", # SMTP 서버 주소
-                  "smtp_user_id" : "hahxowns@naver.com",
-                  "smtp_user_pw" : "wnsxo123" ,
-                  "smtp_port" : 587}) # SMTP 서버 포트
-
-
 
 chrome_options = ChromeOptions()
 
@@ -220,6 +213,13 @@ for titles in value:
 excel_df['top_word']=tag_list
 excel_df.to_excel('./result/Netflix_Top10.xlsx',index=False)
 attach_dict['excel'] ={'maintype' : 'excel', 'subtype' : 'octect-stream', 'filename' : 'Netflix_Top10.xlsx'}
+id =''
+password=''
+#전송 정보
+smtp_info = dict({"smtp_server" : "smtp.naver.com", # SMTP 서버 주소
+                  "smtp_user_id" : id,
+                  "smtp_user_pw" : password ,
+                  "smtp_port" : 587}) # SMTP 서버 포트
 
 # 메일 내용 작성
 title = "Netflex Top 10 영화 & TV 워드클라우드"
