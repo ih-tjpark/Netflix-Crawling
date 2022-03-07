@@ -61,6 +61,16 @@ def make_multimsg(msg_dict):
 
     return multi
 
+excel_df = pd.read_excel('all-weeks-countries.xlsx', usecols = ['country_name','week','category','show_title'])
+
+excel_df = excel_df[excel_df['country_name']=='South Korea']
+excel_df = excel_df[excel_df['week']=='2022-02-27']
+
+title_list = excel_df.show_title.tolist()
+
+
+print(title_list)
+
 #전송 정보
 smtp_info = dict({"smtp_server" : "smtp.naver.com", # SMTP 서버 주소
                   "smtp_user_id" : "hahxowns@naver.com",
@@ -93,10 +103,10 @@ excel = pd.DataFrame({
 msg = MIMEText(_text = content, _charset = "utf-8") # 메일 내용
 
 # 첨부파일 추가
-multi = make_multimsg(attach_dict)
-multi['subject'] = title    # 메일 제목
-multi['from'] = sender      # 송신자
-multi['to'] = receiver      # 수신자
-multi.attach(msg)
+# multi = make_multimsg(attach_dict)
+# multi['subject'] = title    # 메일 제목
+# multi['from'] = sender      # 송신자
+# multi['to'] = receiver      # 수신자
+# multi.attach(msg)
 
-send_email(smtp_info, multi)
+# send_email(smtp_info, multi)
