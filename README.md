@@ -5,10 +5,13 @@ Netflix review Crawling
 ![image](https://user-images.githubusercontent.com/57780594/157156960-e11c0f19-e6a6-43ed-ab4d-951f54faf2a4.png)
 
 
-- 크롤링
-![image](https://user-images.githubusercontent.com/57780594/157157165-db0c7375-7128-4c2b-8274-72aaa15adfe0.png)
+- 크롤링 (Selenium)
+![image](https://user-images.githubusercontent.com/57780594/157159521-113ba257-0a57-451e-8409-791e645c42e5.png)
 
-- 시각화
+- 전처리 (불용어 처리, 형태소 분석) 
+![image](https://user-images.githubusercontent.com/57780594/157157595-c08ac3b3-6088-435e-98d2-f2226e4a9dd6.png)
+
+- 시각화 (Wordcloud) 
 ![image](https://user-images.githubusercontent.com/57780594/157157595-c08ac3b3-6088-435e-98d2-f2226e4a9dd6.png)
 
 - 자동화
