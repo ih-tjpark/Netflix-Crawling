@@ -8,11 +8,13 @@ Netflix review Crawling
 - 크롤링 (Selenium)
 ![image](https://user-images.githubusercontent.com/57780594/157159521-113ba257-0a57-451e-8409-791e645c42e5.png)
 
+
 - 전처리 (불용어 처리, 형태소 분석) 
-![image](https://user-images.githubusercontent.com/57780594/157157595-c08ac3b3-6088-435e-98d2-f2226e4a9dd6.png)
+![image](https://user-images.githubusercontent.com/57780594/157159756-a4c09053-6c95-448e-9ecd-0d3d822390bc.png)
 
 - 시각화 (Wordcloud) 
 ![image](https://user-images.githubusercontent.com/57780594/157157595-c08ac3b3-6088-435e-98d2-f2226e4a9dd6.png)
+
 
 - 자동화
 ![image](https://user-images.githubusercontent.com/57780594/157157763-29ac5f96-0a8c-4e49-94fa-02eb902801da.png)
