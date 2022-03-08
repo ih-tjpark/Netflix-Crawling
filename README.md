@@ -18,7 +18,5 @@ Netflix review Crawling
 
 - 자동화
 ![image](https://user-images.githubusercontent.com/57780594/157157763-29ac5f96-0a8c-4e49-94fa-02eb902801da.png)
-
 ![image](https://user-images.githubusercontent.com/57780594/157159368-b795b344-dab3-4cae-8c5b-f0d94c23ba8a.png)
-
 ![image](https://user-images.githubusercontent.com/57780594/157159407-0cd5c4ad-3790-4c7a-b9c0-4a092c287a76.png)
