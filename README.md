@@ -1,5 +1,9 @@
 # Netflix-Crawling
-Netflix review Crawling
+Netflix review Crawling Python 업무자동화
+
+1. 넷플릭스 주간 영화, TV Top10 기준으로 네이버 검색 후 크롤링
+2. 크롤링된 데이터로 전처리 및 워드카운트 후 컨텐츠 별 로 시각화(워드클라우드) 진행
+3. 컨텐츠 별 워드카운트 순위 top5가 포함된 excel과 워드클라우드를 이메일로 전송
 
 - 팀원 소개
 ![image](https://user-images.githubusercontent.com/57780594/157156960-e11c0f19-e6a6-43ed-ab4d-951f54faf2a4.png)
